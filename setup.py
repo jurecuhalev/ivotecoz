@@ -24,6 +24,7 @@ setup(name='ivotecoz',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'Django>=1.2',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

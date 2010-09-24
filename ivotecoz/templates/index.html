@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 
 {% block header %}
-    <h1>Prvi slovenski generator volilnih razlogov za vse, ki so ob naših politkih že pozabili, zakaj se sploh udeleževati volitev.</h1>
+Prvi slovenski generator volilnih razlogov za vse, ki so ob naših politkih že pozabili, zakaj se sploh udeleževati volitev.
 {% endblock %}
 
 {% block content %}
-    <h2>Zagrabi svoj dober razlog za volitve</h2>
-    <button>Poženi generator</button>
+    Zagrabi svoj dober razlog za volitve
+    <form action="." method="POST" accept-charset="utf-8">
+        {% csrf_token %}
+        <p><input type="submit" value="Poženi generator"></p>
+    </form>
     
     <img src="" />
 {% endblock %}

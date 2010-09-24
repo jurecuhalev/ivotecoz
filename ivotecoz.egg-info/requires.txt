@@ -1,1 +1,2 @@
 setuptools
+Django>=1.2

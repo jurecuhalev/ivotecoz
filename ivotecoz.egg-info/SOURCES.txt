@@ -2,6 +2,7 @@ README.txt
 setup.cfg
 setup.py
 ivotecoz/__init__.py
+ivotecoz/localsettings.py
 ivotecoz/manage.py
 ivotecoz/models.py
 ivotecoz/settings.py
