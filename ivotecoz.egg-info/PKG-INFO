@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: ivotecoz
+Version: 0.1dev
+Summary: Election promotion site
+Home-page: UNKNOWN
+Author: Jure
+Author-email: g@owca.info
+License: APACHE
+Description: Introduction
+        ============
+        
+        
+        
+        Changelog
+        =========
+        
+        0.1 - Unreleased
+        ----------------
+        
+        * Initial release
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

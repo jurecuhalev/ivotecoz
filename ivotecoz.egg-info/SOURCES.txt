@@ -1,0 +1,16 @@
+README.txt
+setup.cfg
+setup.py
+ivotecoz/__init__.py
+ivotecoz/manage.py
+ivotecoz/models.py
+ivotecoz/settings.py
+ivotecoz/urls.py
+ivotecoz.egg-info/PKG-INFO
+ivotecoz.egg-info/SOURCES.txt
+ivotecoz.egg-info/dependency_links.txt
+ivotecoz.egg-info/entry_points.txt
+ivotecoz.egg-info/namespace_packages.txt
+ivotecoz.egg-info/not-zip-safe
+ivotecoz.egg-info/requires.txt
+ivotecoz.egg-info/top_level.txt
