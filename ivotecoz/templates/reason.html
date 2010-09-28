@@ -1,14 +1,19 @@
 {% extends "base.html" %}
-{% block header %}10. oktobra grem na volitve, ker ...{% endblock %}
 
 {% block content %}
-<p>{{ reel1.text }} {{ reel2.text }} {{ reel3.text }} {{ reel4.text }}</p>
 
-<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.example.com/{{ request.path}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+<img src="/static/images/reason_top.png" class="center" />
+<div id="reason">
+    <p>{{ reel1.text }} {{ reel2.text }} {{ reel3.text }} {{ reel4.text }}</p>
+    <br />
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.example.com/{{ request.path}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px; float: center;" allowTransparency="true"></iframe>
+</div>
 
 {% endblock %}
 
 {% block footer %}
-Ti razlog smrdi? Poskusi ponovno!
-<a href="/"><img src="" /></a>
+<form action="." method="POST" accept-charset="utf-8" class="center">
+    {% csrf_token %}
+    <input type="image" src="/static/images/reason_bottom.png" name="submit" value="Submit" id="index" />
+</form>
 {% endblock %}

@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     (r'^admin/(.*)', admin.site.root),
     
+    url(r'^about/$', 'django.views.generic.simple.direct_to_template', {'template': 'about.html'}),
     url(r'^(?P<reels>[0-9-\-]+)', 'ivotecoz.web.views.reason', name="reel"),
     url(r'^$', 'ivotecoz.web.views.index', name='index'),
     

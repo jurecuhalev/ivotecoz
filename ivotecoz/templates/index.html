@@ -1,15 +1,8 @@
 {% extends "base.html" %}
 
-{% block header %}
-Prvi slovenski generator volilnih razlogov za vse, ki so ob naših politkih že pozabili, zakaj se sploh udeleževati volitev.
-{% endblock %}
-
 {% block content %}
-    Zagrabi svoj dober razlog za volitve
-    <form action="." method="POST" accept-charset="utf-8">
+    <form action="." method="POST" accept-charset="utf-8" class="center">
         {% csrf_token %}
-        <p><input type="submit" value="Poženi generator"></p>
+        <input type="image" src="/static/images/index.png" name="submit" value="Submit" id="index" />
     </form>
-    
-    <img src="" />
 {% endblock %}

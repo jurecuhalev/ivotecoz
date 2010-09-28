@@ -262,3 +262,25 @@ button {  width: auto; overflow: visible; }
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } 
 }
 
+#about {
+    float: right;
+}
+
+.center {
+    display: block; 
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+#reason {
+    margin-left: auto; 
+    margin-right: auto;
+    
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    width: 500px;
+}
+
