@@ -55,7 +55,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.media",
     "django.core.context_processors.request",
     "django.contrib.messages.context_processors.messages",
-    
+    "ivotecoz.web.context_processors.site_url",
 )
 
 MIDDLEWARE_CLASSES = (
@@ -82,5 +82,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'ivotecoz.web',
 )
+
+SITE_URL = 'http://ivotecoz.dev.frubsd.org'
 
 from localsettings import *
